@@ -1,0 +1,395 @@
+Start: Thu Dec 13 23:28:47 CET 2018
+cwd: /scratch/qiwang/MRS/test4
+number of items: 1000, number of users: 10000
+number of items: 1000, number of users: 10000
+(1000, 10000)
+the shape of original ratings. (# of row, # of col): (1000, 10000)
+the shape of valid ratings. (# of row, # of col): (1000, 10000)
+Total number of nonzero elements in origial data:1176952
+Total number of nonzero elements in train data:1068598
+Total number of nonzero elements in test data:108354
+K = 20, lambda_u = 1.0, lambda_i = 1.0
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.9943875177642374.
+iter: 5, RMSE on training set: 0.9950075800732577.
+iter: 10, RMSE on training set: 0.9950123612790271.
+iter: 15, RMSE on training set: 0.9950130418747818.
+iter: 19, RMSE on training set: 0.9950131924653401.
+RMSE on test data: 1.0033263389573979.
+K = 20, lambda_u = 1.0, lambda_i = 0.1
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.9950093798843883.
+iter: 5, RMSE on training set: 0.9950132433540557.
+iter: 10, RMSE on training set: 0.9950136279431838.
+iter: 15, RMSE on training set: 0.9950137239710632.
+iter: 19, RMSE on training set: 0.9950137528267952.
+RMSE on test data: 1.0033267227724094.
+K = 20, lambda_u = 1.0, lambda_i = 0.01
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.9950128990066743.
+iter: 5, RMSE on training set: 0.995003196437577.
+iter: 10, RMSE on training set: 0.9949804993803361.
+iter: 15, RMSE on training set: 0.994958337162109.
+iter: 19, RMSE on training set: 0.9949470709774428.
+RMSE on test data: 1.0032806263357064.
+K = 20, lambda_u = 1.0, lambda_i = 0.001
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.9947137778237305.
+iter: 5, RMSE on training set: 0.9869863366738275.
+iter: 10, RMSE on training set: 0.9840164068213684.
+iter: 15, RMSE on training set: 0.9831203501920713.
+iter: 19, RMSE on training set: 0.9828106709589269.
+RMSE on test data: 0.9955903855994175.
+K = 20, lambda_u = 0.1, lambda_i = 1.0
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.9948165442142608.
+iter: 5, RMSE on training set: 0.9949261650927139.
+iter: 10, RMSE on training set: 0.9949510651430664.
+iter: 15, RMSE on training set: 0.9949591138815176.
+iter: 19, RMSE on training set: 0.9949616605623711.
+RMSE on test data: 1.0032917497577218.
+K = 20, lambda_u = 0.1, lambda_i = 0.1
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.9942355471082468.
+iter: 5, RMSE on training set: 0.9893821290535579.
+iter: 10, RMSE on training set: 0.9869289117722805.
+iter: 15, RMSE on training set: 0.9861148446099379.
+iter: 19, RMSE on training set: 0.9858461481410119.
+RMSE on test data: 0.9971387898239774.
+K = 20, lambda_u = 0.1, lambda_i = 0.01
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.9757683967192426.
+iter: 5, RMSE on training set: 0.9564324129115536.
+iter: 10, RMSE on training set: 0.9407363681252172.
+iter: 15, RMSE on training set: 0.933779536478415.
+iter: 19, RMSE on training set: 0.9312312914378041.
+RMSE on test data: 0.9851658545494116.
+K = 20, lambda_u = 0.1, lambda_i = 0.001
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.913195687810825.
+iter: 5, RMSE on training set: 0.8523094064914097.
+iter: 10, RMSE on training set: 0.8399727214875067.
+iter: 15, RMSE on training set: 0.8365050436739488.
+iter: 19, RMSE on training set: 0.8354399523264684.
+RMSE on test data: 1.037806993286093.
+K = 20, lambda_u = 0.01, lambda_i = 1.0
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.9868298005628555.
+iter: 5, RMSE on training set: 0.9827733549472178.
+iter: 10, RMSE on training set: 0.9815566112929714.
+iter: 15, RMSE on training set: 0.9811657373187338.
+iter: 19, RMSE on training set: 0.9810627773090599.
+RMSE on test data: 0.9980234066340474.
+K = 20, lambda_u = 0.01, lambda_i = 0.1
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.9100664278608263.
+iter: 5, RMSE on training set: 0.8750787564575683.
+iter: 10, RMSE on training set: 0.8673187165278294.
+iter: 15, RMSE on training set: 0.8650755252953888.
+iter: 19, RMSE on training set: 0.8643693814760784.
+RMSE on test data: 0.9962021130110155.
+K = 20, lambda_u = 0.01, lambda_i = 0.01
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.8438331289468891.
+iter: 5, RMSE on training set: 0.8273006152769544.
+iter: 10, RMSE on training set: 0.8232751924771797.
+iter: 15, RMSE on training set: 0.8222014221636685.
+iter: 19, RMSE on training set: 0.821877390194508.
+RMSE on test data: 1.0565819880543312.
+K = 20, lambda_u = 0.01, lambda_i = 0.001
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.8292805144983569.
+iter: 5, RMSE on training set: 0.8178009010266106.
+iter: 10, RMSE on training set: 0.8150289996813709.
+iter: 15, RMSE on training set: 0.81435129082748.
+iter: 19, RMSE on training set: 0.8141551574954741.
+RMSE on test data: 1.0845624866234502.
+K = 20, lambda_u = 0.001, lambda_i = 1.0
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.9574360814393346.
+iter: 5, RMSE on training set: 0.9416848691170601.
+iter: 10, RMSE on training set: 0.9364250906067293.
+iter: 15, RMSE on training set: 0.9346812321044146.
+iter: 19, RMSE on training set: 0.9342053162596189.
+RMSE on test data: 0.9879356603361596.
+K = 20, lambda_u = 0.001, lambda_i = 0.1
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.8613455678197752.
+iter: 5, RMSE on training set: 0.8430150979598209.
+iter: 10, RMSE on training set: 0.8349122375881405.
+iter: 15, RMSE on training set: 0.832826004880972.
+iter: 19, RMSE on training set: 0.8323981703299483.
+RMSE on test data: 1.0330806650874607.
+K = 20, lambda_u = 0.001, lambda_i = 0.01
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.8731453018719433.
+iter: 5, RMSE on training set: nan.
+iter: 10, RMSE on training set: nan.
+iter: 15, RMSE on training set: nan.
+iter: 19, RMSE on training set: nan.
+RMSE on test data: nan.
+K = 20, lambda_u = 0.001, lambda_i = 0.001
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: nan.
+iter: 5, RMSE on training set: nan.
+iter: 10, RMSE on training set: nan.
+iter: 15, RMSE on training set: nan.
+iter: 19, RMSE on training set: nan.
+RMSE on test data: nan.
+K = 50, lambda_u = 1.0, lambda_i = 1.0
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.9941034971035243.
+iter: 5, RMSE on training set: 0.9949983887171864.
+iter: 10, RMSE on training set: 0.9950097663003488.
+iter: 15, RMSE on training set: 0.9950114217356402.
+iter: 19, RMSE on training set: 0.9950118202407771.
+RMSE on test data: 1.003325627261322.
+K = 50, lambda_u = 1.0, lambda_i = 0.1
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.9950024599399943.
+iter: 5, RMSE on training set: 0.9950119659966281.
+iter: 10, RMSE on training set: 0.995012896760365.
+iter: 15, RMSE on training set: 0.9950131302348929.
+iter: 19, RMSE on training set: 0.9950132012083096.
+RMSE on test data: 1.0033265960954014.
+K = 50, lambda_u = 1.0, lambda_i = 0.01
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.995011080527811.
+iter: 5, RMSE on training set: 0.9949863639393329.
+iter: 10, RMSE on training set: 0.9949280451365443.
+iter: 15, RMSE on training set: 0.9948713829810069.
+iter: 19, RMSE on training set: 0.9948427268064216.
+RMSE on test data: 1.003208163520116.
+K = 50, lambda_u = 1.0, lambda_i = 0.001
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.9942740860662858.
+iter: 5, RMSE on training set: 0.9855737669402956.
+iter: 10, RMSE on training set: 0.9827750521731519.
+iter: 15, RMSE on training set: 0.9814511228236088.
+iter: 19, RMSE on training set: 0.9809128400719297.
+RMSE on test data: 0.9947264682158039.
+K = 50, lambda_u = 0.1, lambda_i = 1.0
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.9947893812766428.
+iter: 5, RMSE on training set: 0.9949130597460337.
+iter: 10, RMSE on training set: 0.9949415270024031.
+iter: 15, RMSE on training set: 0.9949506218514494.
+iter: 19, RMSE on training set: 0.9949536142007636.
+RMSE on test data: 1.0032877298399756.
+K = 50, lambda_u = 0.1, lambda_i = 0.1
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.994130938344536.
+iter: 5, RMSE on training set: 0.988628434214262.
+iter: 10, RMSE on training set: 0.9855474962864009.
+iter: 15, RMSE on training set: 0.9844043166315114.
+iter: 19, RMSE on training set: 0.9840138704903953.
+RMSE on test data: 0.9960295734853571.
+K = 50, lambda_u = 0.1, lambda_i = 0.01
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.9712293441293305.
+iter: 5, RMSE on training set: 0.9510562935515628.
+iter: 10, RMSE on training set: 0.9321819593412383.
+iter: 15, RMSE on training set: 0.9231043732670855.
+iter: 19, RMSE on training set: 0.9197017185321787.
+RMSE on test data: 0.9848330708826032.
+K = 50, lambda_u = 0.1, lambda_i = 0.001
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.8947450015783115.
+iter: 5, RMSE on training set: 0.7839260351813526.
+iter: 10, RMSE on training set: 0.7401917844434408.
+iter: 15, RMSE on training set: 0.7251902014960123.
+iter: 19, RMSE on training set: 0.7203849624090518.
+RMSE on test data: 1.0636657370846687.
+K = 50, lambda_u = 0.01, lambda_i = 1.0
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.9834955220458383.
+iter: 5, RMSE on training set: 0.9782970242267762.
+iter: 10, RMSE on training set: 0.9768777203543741.
+iter: 15, RMSE on training set: 0.9764617586997165.
+iter: 19, RMSE on training set: 0.9763388326391228.
+RMSE on test data: 0.9979767831513822.
+K = 50, lambda_u = 0.01, lambda_i = 0.1
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.866393404799668.
+iter: 5, RMSE on training set: 0.7967651889197284.
+iter: 10, RMSE on training set: 0.7799622471655311.
+iter: 15, RMSE on training set: 0.7747033174934375.
+iter: 19, RMSE on training set: 0.773035669967243.
+RMSE on test data: 1.0041973839799623.
+K = 50, lambda_u = 0.01, lambda_i = 0.01
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.703766004731434.
+iter: 5, RMSE on training set: 0.6630284054198222.
+iter: 10, RMSE on training set: 0.6533813979774711.
+iter: 15, RMSE on training set: 0.650416089693204.
+iter: 19, RMSE on training set: 0.6494734452164619.
+RMSE on test data: 1.1264209764442747.
+K = 50, lambda_u = 0.01, lambda_i = 0.001
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.6539828585495414.
+iter: 5, RMSE on training set: 0.628579038581634.
+iter: 10, RMSE on training set: 0.6223026787843526.
+iter: 15, RMSE on training set: 0.6203951430870907.
+iter: 19, RMSE on training set: 0.6197839848582554.
+RMSE on test data: 1.205258610873021.
+K = 50, lambda_u = 0.001, lambda_i = 1.0
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.9410832362168523.
+iter: 5, RMSE on training set: 0.9172855874169172.
+iter: 10, RMSE on training set: 0.90956660335258.
+iter: 15, RMSE on training set: 0.9072033019722784.
+iter: 19, RMSE on training set: 0.9064790761817072.
+RMSE on test data: 0.9893376075591921.
+K = 50, lambda_u = 0.001, lambda_i = 0.1
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.7264973966964263.
+iter: 5, RMSE on training set: 0.6902494512053495.
+iter: 10, RMSE on training set: 0.6782570087465382.
+iter: 15, RMSE on training set: 0.6754770791692974.
+iter: 19, RMSE on training set: 0.6748742355228776.
+RMSE on test data: 1.0827227821541672.
+K = 50, lambda_u = 0.001, lambda_i = 0.01
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.7061281403580519.
+iter: 5, RMSE on training set: 0.6525208171849037.
+iter: 10, RMSE on training set: 0.6348739189161607.
+iter: 15, RMSE on training set: 0.6312046582856393.
+iter: 19, RMSE on training set: 0.6304761262244886.
+RMSE on test data: 1.2010780746572678.
+K = 50, lambda_u = 0.001, lambda_i = 0.001
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: nan.
+iter: 5, RMSE on training set: nan.
+iter: 10, RMSE on training set: nan.
+iter: 15, RMSE on training set: nan.
+iter: 19, RMSE on training set: nan.
+RMSE on test data: nan.
+K = 100, lambda_u = 1.0, lambda_i = 1.0
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.9944962103197259.
+iter: 5, RMSE on training set: 0.9949835205627802.
+iter: 10, RMSE on training set: 0.9950055378917769.
+iter: 15, RMSE on training set: 0.9950087736869108.
+iter: 19, RMSE on training set: 0.9950095441445722.
+RMSE on test data: 1.0033244732538502.
+K = 100, lambda_u = 1.0, lambda_i = 0.1
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.9949913279072787.
+iter: 5, RMSE on training set: 0.9950098123264979.
+iter: 10, RMSE on training set: 0.995011651474762.
+iter: 15, RMSE on training set: 0.9950121164621434.
+iter: 19, RMSE on training set: 0.9950122585969413.
+RMSE on test data: 1.0033264029572904.
+K = 100, lambda_u = 1.0, lambda_i = 0.01
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.9950080131198599.
+iter: 5, RMSE on training set: 0.994960140948155.
+iter: 10, RMSE on training set: 0.9948494355262776.
+iter: 15, RMSE on training set: 0.994743784621201.
+iter: 19, RMSE on training set: 0.9946909656942067.
+RMSE on test data: 1.0031043790939662.
+K = 100, lambda_u = 1.0, lambda_i = 0.001
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.9937055407979172.
+iter: 5, RMSE on training set: 0.9848979255360137.
+iter: 10, RMSE on training set: 0.98194632490356.
+iter: 15, RMSE on training set: 0.9803388314390808.
+iter: 19, RMSE on training set: 0.9796923519735506.
+RMSE on test data: 0.9942215768790366.
+K = 100, lambda_u = 0.1, lambda_i = 1.0
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.9947713137035415.
+iter: 5, RMSE on training set: 0.9949043179256128.
+iter: 10, RMSE on training set: 0.9949351523517131.
+iter: 15, RMSE on training set: 0.9949449292352812.
+iter: 19, RMSE on training set: 0.9949482169811893.
+RMSE on test data: 1.0032852722322514.
+K = 100, lambda_u = 0.1, lambda_i = 0.1
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.9940638346268366.
+iter: 5, RMSE on training set: 0.9882041837391039.
+iter: 10, RMSE on training set: 0.9848670873879634.
+iter: 15, RMSE on training set: 0.9836322107609823.
+iter: 19, RMSE on training set: 0.9832152369707532.
+RMSE on test data: 0.9955692439637758.
+K = 100, lambda_u = 0.1, lambda_i = 0.01
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.9702008802767368.
+iter: 5, RMSE on training set: 0.9441373547362338.
+iter: 10, RMSE on training set: 0.9229247851399555.
+iter: 15, RMSE on training set: 0.9127671539079049.
+iter: 19, RMSE on training set: 0.9089753207628236.
+RMSE on test data: 0.985413990914306.
+K = 100, lambda_u = 0.1, lambda_i = 0.001
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.8799183517884437.
+iter: 5, RMSE on training set: 0.7446826745264025.
+iter: 10, RMSE on training set: 0.6861537778877557.
+iter: 15, RMSE on training set: 0.6639254761037249.
+iter: 19, RMSE on training set: 0.6564484215073829.
+RMSE on test data: 1.0705942667716313.
+K = 100, lambda_u = 0.01, lambda_i = 1.0
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.9819055991461949.
+iter: 5, RMSE on training set: 0.9761604186080893.
+iter: 10, RMSE on training set: 0.974674488549483.
+iter: 15, RMSE on training set: 0.974250509290962.
+iter: 19, RMSE on training set: 0.9741188606649029.
+RMSE on test data: 0.9980536533351003.
+K = 100, lambda_u = 0.01, lambda_i = 0.1
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.844766047668173.
+iter: 5, RMSE on training set: 0.7545267458628901.
+iter: 10, RMSE on training set: 0.7310714178576336.
+iter: 15, RMSE on training set: 0.7233262175794017.
+iter: 19, RMSE on training set: 0.7208339325538708.
+RMSE on test data: 1.0045797539711347.
+K = 100, lambda_u = 0.01, lambda_i = 0.01
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.5938763095877648.
+iter: 5, RMSE on training set: 0.4970092073914615.
+iter: 10, RMSE on training set: 0.47448423103091947.
+iter: 15, RMSE on training set: 0.46738652917694595.
+iter: 19, RMSE on training set: 0.46513224189640356.
+RMSE on test data: 1.1414155180959706.
+K = 100, lambda_u = 0.01, lambda_i = 0.001
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.4507098091557874.
+iter: 5, RMSE on training set: 0.4018234284178162.
+iter: 10, RMSE on training set: 0.389754816179247.
+iter: 15, RMSE on training set: 0.385749030215266.
+iter: 19, RMSE on training set: 0.38444111284310006.
+RMSE on test data: 1.2578023404199021.
+K = 100, lambda_u = 0.001, lambda_i = 1.0
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.9312671802303144.
+iter: 5, RMSE on training set: 0.9026213567122674.
+iter: 10, RMSE on training set: 0.893534494616244.
+iter: 15, RMSE on training set: 0.8908080341893199.
+iter: 19, RMSE on training set: 0.8899921252201439.
+RMSE on test data: 0.9899721560712956.
+K = 100, lambda_u = 0.001, lambda_i = 0.1
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.5948721750663974.
+iter: 5, RMSE on training set: 0.5353041990531586.
+iter: 10, RMSE on training set: 0.520816632587487.
+iter: 15, RMSE on training set: 0.5174823005217362.
+iter: 19, RMSE on training set: 0.5167155446719828.
+RMSE on test data: 1.0897242138744379.
+K = 100, lambda_u = 0.001, lambda_i = 0.01
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.48337479336744166.
+iter: 5, RMSE on training set: 0.4147051788923292.
+iter: 10, RMSE on training set: 0.399055974955472.
+iter: 15, RMSE on training set: 0.39550741404661993.
+iter: 19, RMSE on training set: 0.39460781993153465.
+RMSE on test data: 1.249802841242033.
+K = 100, lambda_u = 0.001, lambda_i = 0.001
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 0.4501371148670222.
+iter: 5, RMSE on training set: 0.3865349332186287.
+iter: 10, RMSE on training set: 0.37233158189090904.
+iter: 15, RMSE on training set: 0.3692630349932743.
+iter: 19, RMSE on training set: 0.36851554603811365.
+RMSE on test data: 1.3174579512290907.
+End: Fri Dec 14 07:04:36 CET 2018
