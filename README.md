@@ -1,4 +1,4 @@
-# EPFL CS-433 - Project II: Recommender System
+# Recommender System
 
 ## Contents
 - README.MD (this)
